@@ -23,9 +23,8 @@ public class launch {
         System.out.println("Page Title: " + pageTitle);
         // Close the browser window
         driver.quit();
-        driver.close();
-        driver.quit();
-        driver.close();
+        driver.close();aaaaaaaaaa
+       
 
 
 	}
