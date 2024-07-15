@@ -24,6 +24,8 @@ public class launch {
         // Close the browser window
         driver.quit();
         driver.close();
+        driver.quit();
+        driver.close();
 
 
 	}
