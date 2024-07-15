@@ -11,19 +11,21 @@ public class launch {
 		// TODO Auto-generated method stub
 		WebDriverManager.chromedriver().setup();
 		   WebDriver driver = new ChromeDriver();
+		   
+		   //get url
 
         driver.get("https://www.facebook.com/");
     
         //Maximize the window
       //Maximize the window
         driver.manage().window().maximize();
-        driver.manage().window().maximize();
+      
         // Verify the page title
         String pageTitle = driver.getTitle();
         System.out.println("Page Title: " + pageTitle);
         // Close the browser window
         driver.quit();
-        driver.close();aaaaaaaaaa
+        driver.close();
        
 
 
