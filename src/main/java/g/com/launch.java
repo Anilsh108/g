@@ -15,6 +15,8 @@ public class launch {
         driver.get("https://www.facebook.com/");
     
         //Maximize the window
+      //Maximize the window
+        driver.manage().window().maximize();
         driver.manage().window().maximize();
         // Verify the page title
         String pageTitle = driver.getTitle();
