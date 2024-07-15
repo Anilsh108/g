@@ -20,7 +20,7 @@ public class launch {
       //Maximize the window
         driver.manage().window().maximize();
       
-        // Verify the page title
+        // Verify the page titleeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
         String pageTitle = driver.getTitle();
         System.out.println("Page Title: " + pageTitle);
         // Close the browser window
